@@ -1,7 +1,7 @@
 How to run a project?
 
 1. Clone the fork `git clone git@github.com:dimabory/gqlx-apollo-express-server.git`
-2. Create the link `cd gqlx-apollo-express-server && npm link`
+2. Create the link `cd gqlx-apollo-express-server && npm build && npm link`
 3. Go to the project and link it `cd gqlx-apollo-express-server-2-example && npm link gqlx-apollo-express-server`
 4. Run it `npm start` or `npm run dev` (hot-reload) 
 
